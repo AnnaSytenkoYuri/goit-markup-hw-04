@@ -236,9 +236,8 @@ margin-right: auto;
 .section-two-list-item {
     width: calc((100% - 72px) / 4);
 }
-.benefits-icon-svg {
-    fill: #f4f4fd; 
-}
+/* .benefits-icon-svg {
+} */
 
 .title-two {
     margin-bottom: 72px;
@@ -307,7 +306,7 @@ margin-right: auto;
     gap: 24px;
     margin-top: 8px;
 }
- .social-icon {
+ .sec-three-icon-svg {
     fill: #f4f4fd;
  }
 
@@ -337,10 +336,19 @@ margin-right: auto;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
+.section-four-list-item {
+    width: calc((100% - 2*24px)/ 3);
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.section-four-list-item:hover {
+    transform: translateY(0%);
+}
+
 .sec-four-img-link {
     position: relative;
     overflow: hidden;  
 }
+ 
 
 .img-paragrah {
     position: absolute;
@@ -356,14 +364,10 @@ margin-right: auto;
     transform: translateY(100%);
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.img-paragrah:hover {
+/* .img-paragrah:hover {
     transform: translateY(0%);
-}
+} */
 
-.section-four-list-item {
-    width: calc((100% - 2*24px)/ 3);
-    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
 .our-portfolio-item-descr {
     padding: 32px 16px;
@@ -407,12 +411,12 @@ margin-right: auto;
     justify-content: center;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.footer-icons-link:hover {
-    background-color: #31d0aa;
-}
+.footer-icons-link:hover,
 .footer-icons-link:focus {
     background-color: #31d0aa;
+    background-color: #31d0aa;
 }
+ 
 .footer-icon-svg {
     fill: #f4f4fd;
 }
